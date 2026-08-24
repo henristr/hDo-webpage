@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import hstrimg from "/src/assets/henristr.png"
-import hdoMainImg from "/src/assets/hdo-main.png"
-import hdoSettingsImg from "/src/assets/hdo-settings.png"
+import hstrimg from "../assets/henristr.png"
+import hdoMainImg from "../assets/hdo-main.png"
+import hdoSettingsImg from "../assets/hdo-settings.png"
 
 function App() {
   useEffect(() => {

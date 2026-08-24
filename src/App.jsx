@@ -1,4 +1,7 @@
 import { useEffect } from "react";
+import hstrimg from "/src/assets/henristr.png"
+import hdoMainImg from "/src/assets/hdo-main.png"
+import hdoSettingsImg from "/src/assets/hdo-settings.png"
 
 function App() {
   useEffect(() => {
@@ -25,7 +28,7 @@ function App() {
     <>
       <header>
         <a className="header-main" href="/">
-          <img src="/src/assets/henristr.png" alt="hstr-img" id="hstr-img" />
+          <img src={hstrimg} alt="hstr-img" id="hstr-img" />
           <h3 id="header-title">hDo</h3>
         </a>
         <span className="links">
@@ -40,17 +43,17 @@ function App() {
         <h2 id="title">Your new simple Todo App</h2>
 
         <div id="hdo">
-          <div class="project-text">
+          <div className="project-text">
             <h1 id="title">hDo</h1>
             <a href="/web">Try it out!</a>
           </div>
-          <img src="/src/assets/hdo-main.png" alt="" id="hdo-img" />
+          <img src={hdoMainImg} alt="" id="hdo-img" />
         </div>
         <div id="hdo">
-          <div class="project-text">
+          <div className="project-text">
             <h1 id="title">Fully written in React Native</h1>
           </div>
-          <img src="/src/assets/hdo-settings.png" alt="" id="hdo-img" />
+          <img src={hdoSettingsImg} alt="" id="hdo-img" />
         </div>
 
         <button id="themeBtn">
@@ -61,16 +64,16 @@ function App() {
             version="1.1"
             id="moon"
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 512 512"
-            xml:space="preserve"
+            xmlSpace="preserve"
             stroke="#ffffff"
           >
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
             <g
               id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             ></g>
             <g id="SVGRepo_iconCarrier">
               <g>

@@ -32,9 +32,9 @@ function App() {
           <h3 id="header-title">hDo</h3>
         </a>
         <span className="links">
-          <a href="https://github.com/henristr">GitHub</a>
+          <a href="https://github.com/henristr/hDo">GitHub</a>
           <span>|</span>
-          <a href="/web">Open the App</a>
+          <a href="https://hdo.henristr.de">Open the App</a>
         </span>
       </header>
 
@@ -45,7 +45,7 @@ function App() {
         <div id="hdo">
           <div className="project-text">
             <h1 id="title">hDo</h1>
-            <a href="/web">Try it out!</a>
+            <a href="https://hdo.henristr.de">Try it out!</a>
           </div>
           <img src={hdoMainImg} alt="" id="hdo-img" />
         </div>
